@@ -67,7 +67,7 @@ To find the weights for the edges to the 1-output unit. Weights associated would
     bias edge
 
 ## PROGRAM:
-
+```
 def end_to_end(X1, X2, ys, mu1, mu2):
 from_1 = [gaussian_rbf(i, mu1) for i in zip(X1, X2)]
 from_2 = [gaussian_rbf(i, mu2) for i in zip(X1, X2)]
@@ -119,7 +119,7 @@ return np.round(A.dot(weights))
 
 x1 = np.array([0, 0, 1, 1])
 
-
+```
 
 ## OUTPUT :
 ![201325765-515830d8-2b74-4fe0-a1ea-476f4840d843](https://github.com/Bhuvaneshwari-2003/Experiment-5-Implementation-of-XOR-using-RBF/assets/94828604/5a719551-04ca-4911-85f5-6545f2943865)
